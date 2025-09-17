@@ -1,0 +1,65 @@
+[
+  {
+    "agent_id": "agent_1_technical",
+    "role_name": "technical",
+    "assigned_tasks": [
+      "85201d84"
+    ]
+  },
+  {
+    "agent_id": "agent_2_senior_engineer",
+    "role_name": "senior_engineer",
+    "assigned_tasks": [
+      "42cc6145"
+    ]
+  },
+  {
+    "agent_id": "agent_1_technical",
+    "role_name": "technical",
+    "assigned_tasks": [
+      "3646fb45"
+    ]
+  },
+  {
+    "agent_id": "agent_3_content",
+    "role_name": "content",
+    "assigned_tasks": [
+      "af84fa5b"
+    ]
+  },
+  {
+    "agent_id": "agent_2_senior_engineer",
+    "role_name": "senior_engineer",
+    "assigned_tasks": [
+      "b7847640"
+    ]
+  },
+  {
+    "agent_id": "agent_1_technical",
+    "role_name": "technical",
+    "assigned_tasks": [
+      "94f8bef4"
+    ]
+  },
+  {
+    "agent_id": "agent_2_senior_engineer",
+    "role_name": "senior_engineer",
+    "assigned_tasks": [
+      "1081b95a"
+    ]
+  },
+  {
+    "agent_id": "agent_1_technical",
+    "role_name": "technical",
+    "assigned_tasks": [
+      "5302156e"
+    ]
+  },
+  {
+    "agent_id": "agent_4_validation",
+    "role_name": "validation",
+    "assigned_tasks": [
+      "b225f230"
+    ]
+  }
+]

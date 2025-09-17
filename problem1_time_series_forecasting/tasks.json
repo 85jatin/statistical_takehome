@@ -1,0 +1,86 @@
+[
+  {
+    "task_id": "85201d84",
+    "title": "Source Data Preprocessing",
+    "description": "Load and preprocess the following source data files located in the /data folder: sample_data.xlsx, TimeSeries.xlsx. Ensure data is cleaned, validated, and ready for use by subsequent tasks.",
+    "skill_type": "technical",
+    "estimated_effort": 2,
+    "expected_output": "preprocessed_data_output",
+    "output_format": "code"
+  },
+  {
+    "task_id": "42cc6145",
+    "title": "Data Preprocessing Blueprint",
+    "description": "Create a technical blueprint for data loading and cleaning for time series data.",
+    "skill_type": "senior_engineer",
+    "estimated_effort": 1,
+    "expected_output": "data_preprocessing_blueprint.json",
+    "output_format": "json"
+  },
+  {
+    "task_id": "3646fb45",
+    "title": "Data Preprocessing Script",
+    "description": "Generate a Python script for data loading and cleaning for time series data.",
+    "skill_type": "technical",
+    "estimated_effort": 1,
+    "expected_output": "data_preprocessing.py",
+    "output_format": "code",
+    "depends_on": "Data Preprocessing Blueprint"
+  },
+  {
+    "task_id": "af84fa5b",
+    "title": "Model Selection Report",
+    "description": "Generate a markdown report explaining the rationale for selecting a specific time series forecasting model.",
+    "skill_type": "content",
+    "estimated_effort": 1,
+    "expected_output": "model_selection_report.md",
+    "output_format": "text"
+  },
+  {
+    "task_id": "b7847640",
+    "title": "Forecasting Model Blueprint",
+    "description": "Create a technical blueprint to implement the chosen time series forecasting model, including training and prediction.",
+    "skill_type": "senior_engineer",
+    "estimated_effort": 1,
+    "expected_output": "forecasting_model_blueprint.json",
+    "output_format": "json"
+  },
+  {
+    "task_id": "94f8bef4",
+    "title": "Forecasting Model Implementation",
+    "description": "Generate Python code to implement the chosen time series forecasting model, including training and prediction.",
+    "skill_type": "technical",
+    "estimated_effort": 1,
+    "expected_output": "forecasting_model.py",
+    "output_format": "code",
+    "depends_on": "Forecasting Model Blueprint"
+  },
+  {
+    "task_id": "1081b95a",
+    "title": "Results Visualization Blueprint",
+    "description": "Create a technical blueprint to visualize the forecast results, including actual vs. predicted values.",
+    "skill_type": "senior_engineer",
+    "estimated_effort": 1,
+    "expected_output": "visualization_blueprint.json",
+    "output_format": "json"
+  },
+  {
+    "task_id": "5302156e",
+    "title": "Results Visualization Script",
+    "description": "Generate a Python script to visualize the forecast results, including actual vs. predicted values.",
+    "skill_type": "technical",
+    "estimated_effort": 1,
+    "expected_output": "visualization_script.py",
+    "output_format": "code",
+    "depends_on": "Results Visualization Blueprint"
+  },
+  {
+    "task_id": "b225f230",
+    "title": "LLM API configuration check",
+    "description": "Ensure the LLM API key is correctly configured.",
+    "skill_type": "validation",
+    "estimated_effort": 1,
+    "expected_output": "api_config_check",
+    "output_format": "text"
+  }
+]

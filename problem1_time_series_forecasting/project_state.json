@@ -1,0 +1,10 @@
+{
+  "prompts": [
+    "You have a time series of revenue from a particular sport gear store. It is time series with weeks assigned. The time series have seasonality and trend. The goal is to predict the next 10 weeks as accurately as possible. The data is attached in Excel file, please use software that you see fit and provide the code together with your answers. The code must be run through, that means if I open in R/Python environment I should be able to run end to end and have the forecast in the output. The white paper should have explanation of model selection and the criteria of the choice of the model and parameters if needed.",
+    "The data provided is excel worksheet named 'TimeSeries'. It has 2 columns - 'week' and 'Rev from a Sport Store retail'. The week column is not it datetime format but contain a combination of Ref_year#-week, example: year masked with reference number 15 and first week for the year will be represented by '15-W01'. Generate a datetime column accordingly",
+    ""
+  ],
+  "tech_stack": "python",
+  "llm_model": "gpt-4o",
+  "status": "planning"
+}
