@@ -41,3 +41,44 @@ Model Candidates
 Conclusion
 The SARIMA model was selected for its ability to effectively capture the seasonal patterns in the sales data. It achieved a MAPE of less than 10%, fulfilling the project's requirements. This report provides a detailed explanation of the model selection process, implementation, and evaluation, serving as a comprehensive guide for future forecasting tasks.
 
+### Problem Statement 4: Please explain what the benefits of Deep learning are and how it differentiates from GLM, Decision trees class of models:
+
+# Deep_learning_definition:
+"Deep Learning is a subset of machine learning that uses neural networks "
+"with many layers (deep networks) to model complex patterns in data. "
+"Core components include neurons, layers, activation functions, and backpropagation."
+## Key benefits of Deep Learning include:"
+"- Ability to handle large and complex datasets."
+"- Automatic feature learning and extraction."
+"- High adaptability to different types of data and tasks."
+"- State-of-the-art performance in fields like image recognition and natural language processing."
+## Examples of applications:"
+"- Image recognition (e.g., facial recognition, object detection).\n"
+"- Natural language processing (e.g., language translation, sentiment analysis).\n"
+"- Autonomous vehicles (e.g., self-driving cars).\n"
+"- Healthcare (e.g., disease prediction, medical image analysis)."
+
+# Define Generalized Linear Models:
+"Generalized Linear Models (GLM) are a flexible generalization of ordinary linear regression "
+"that allows for response variables to have error distribution models other than a normal distribution."
+## Highlight key differences between Deep Learning and GLM:"
+"1. Complexity and flexibility: Deep Learning can model complex patterns, while GLM is more interpretable."
+"2. Data requirements: Deep Learning requires large datasets, whereas GLM can work with smaller datasets."
+"3. Feature engineering: Deep Learning automates feature extraction, while GLM requires manual feature selection."
+## Provide examples illustrating these differences examples
+"Examples:"
+"- Deep Learning is used in image recognition where complex patterns are learned automatically."
+"- GLM is often used in epidemiology for modeling disease incidence with interpretable coefficients."
+
+# Define Decision_trees_definition:
+"Decision Trees are a type of model used for classification and regression tasks. "
+"They split the data into branches to make predictions based on feature values."
+## Highlight key differences between Deep Learning and Decision Trees:"
+"1. Model interpretability: Decision Trees are more interpretable, while Deep Learning is more of a black box."
+"2. Overfitting: Deep Learning can handle overfitting with techniques like dropout, whereas Decision Trees are prone to overfitting."
+"3. Scalability: Deep Learning scales better with large datasets, while Decision Trees can become complex and less efficient."
+## "Examples:"
+"- Deep Learning is used in large-scale image classification tasks."
+"- Decision Trees are used in scenarios where model interpretability is crucial, such as credit scoring."
+
+
