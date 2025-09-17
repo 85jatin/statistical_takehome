@@ -41,6 +41,8 @@ Model Candidates
 Conclusion
 The SARIMA model was selected for its ability to effectively capture the seasonal patterns in the sales data. It achieved a MAPE of less than 10%, fulfilling the project's requirements. This report provides a detailed explanation of the model selection process, implementation, and evaluation, serving as a comprehensive guide for future forecasting tasks.
 
+### 
+
 ### Problem Statement 4: Please explain what the benefits of Deep learning are and how it differentiates from GLM, Decision trees class of models:
 
 # Deep_learning_definition:
@@ -80,5 +82,31 @@ The SARIMA model was selected for its ability to effectively capture the seasona
 ## "Examples:"
 "- Deep Learning is used in large-scale image classification tasks."
 "- Decision Trees are used in scenarios where model interpretability is crucial, such as credit scoring."
+
+### Problem statement 5: Please provide an example of a web scrapping techniques when you had to overcome challenges (blocking, time outs, reverse API changes). If you didn’t have that experience firsthand feel free to provide recommendations to a few examples you’ve known/seen. Bonus – a proof of concept code with 5 companies selected and some firmographic information about them.
+
+# Deliverables: 
+1. **[Status: Complete]** example of a web scrapping techniques when you had to overcome challenges
+2. **[Status: Partial]** a proof of concept code with 5 companies selected and some firmographic information about them
+
+# Here are some of the challenges faced while data scraping
+For each company URL:",
+1. If the page contains dynamic content:
+    "  Use 'handle_dynamic_content' to load the content.",
+2. If a CAPTCHA is detected:
+    "  Use 'solve_captcha' to bypass it.",
+    "  Parse the webpage using 'parse_firmographic_data'.",
+    "  Store the parsed data using 'store_data'.",
+    "  Handle any exceptions and log errors."
+
+# Error_handling techniques
+1. "error_case": "TimeoutError"
+"handling_strategy": "Retry the request with exponential backoff."
+2. "error_case": "HTTPError"
+"handling_strategy": "Log the error and skip to the next URL."
+3. "error_case": "CAPTCHAError"
+"handling_strategy": "Invoke 'solve_captcha' and retry the request."
+4. "error_case": "ParsingError"
+"handling_strategy": "Log the error and continue with the next data point."
 
 
