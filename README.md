@@ -3,7 +3,16 @@
 ## Key notes:
 1. Each folder represents results for 1 problem - titled in order of problems provide in takehome
 2. AI(personal OpenAI API) was used for generating the answer.
-3. A multi-agent architecture with 8 agents with development-test-feedback loop orchestrations were used.
+3. A multi-agent architecture with 8 agents with development-test-feedback loop orchestrations were used:
+  Here are the roles of the specialized agents that will work on your project:
+    * **Orchestrator**: The project manager that coordinates all tasks.
+    * **Intelligence Agent**: The core thinker that analyzes the prompt for deeper context and constraints.
+    * **Conceptualizer**: The thinker that formalizes your idea into a concrete plan.
+    * **Decomposer**: The planner that breaks down the plan into atomic tasks.
+    * **Senior Engineer Agent**: The lead developer that designs a detailed technical blueprint.
+    * **Technical Agent**: The builder that generates the code for each task, following the blueprint.
+    * **Content Agent**: The specialist for documents, proposals, and creative writing.
+    * **Quality Assurance Agent**: The quality assurance agent that automatically reviews outputs against deliverables.
 4. $4 were spend for development and each solution cost roughly $0.1-0.5
 
 ## Responses:
