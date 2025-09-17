@@ -1,0 +1,67 @@
+[
+  {
+    "task_id": "57c42195",
+    "title": "Web Scraping Solution Blueprint",
+    "description": "Create a technical blueprint for the core web scraping logic to obtain customer contact information from 5 specified companies in India, including strategies for handling dynamic content and CAPTCHAs.",
+    "skill_type": "senior_engineer",
+    "estimated_effort": 1,
+    "expected_output": "scraper_blueprint.json",
+    "output_format": "json"
+  },
+  {
+    "task_id": "2c0b45e6",
+    "title": "Scraping Core - Data Extraction Logic (Company-Specific)",
+    "description": "Generate Python code for company-specific data extraction logic to pull addresses with all details from the 5 specified Indian companies, adhering to the 'Web Scraping Solution Blueprint' blueprint.",
+    "skill_type": "technical",
+    "estimated_effort": 1,
+    "expected_output": "scraper_extractor.py",
+    "output_format": "code",
+    "depends_on": "Web Scraping Solution Blueprint"
+  },
+  {
+    "task_id": "1ac61e6a",
+    "title": "Scalability Strategy Document",
+    "description": "Generate a document outlining the strategy to scale the web scraping solution for 5 million customers, including distributed processing and rate limiting.",
+    "skill_type": "content",
+    "estimated_effort": 1,
+    "expected_output": "scalability_strategy.md",
+    "output_format": "text"
+  },
+  {
+    "task_id": "e8f3faa6",
+    "title": "Compliance & Legal Standards Report",
+    "description": "Generate a report on compliance and legal standards for web scraping in India and internationally, focusing on data privacy laws.",
+    "skill_type": "content",
+    "estimated_effort": 1,
+    "expected_output": "compliance_report.md",
+    "output_format": "text"
+  },
+  {
+    "task_id": "32a20d6f",
+    "title": "Output Formatting Blueprint",
+    "description": "Create a technical blueprint to format, clean, and store the scraped data in a structured and normalized format (e.g., CSV, JSON), including data validation rules.",
+    "skill_type": "senior_engineer",
+    "estimated_effort": 1,
+    "expected_output": "data_formatter_blueprint.json",
+    "output_format": "json"
+  },
+  {
+    "task_id": "1ca38083",
+    "title": "Output Formatting and Storage Script",
+    "description": "Generate a Python script to format and store the scraped data in a structured format (CSV/JSON), performing data cleaning and validation as defined in the 'Output Formatting Blueprint' blueprint.",
+    "skill_type": "technical",
+    "estimated_effort": 1,
+    "expected_output": "data_formatter.py",
+    "output_format": "code",
+    "depends_on": "Output Formatting Blueprint"
+  },
+  {
+    "task_id": "341f7088",
+    "title": "LLM API configuration check",
+    "description": "Ensure the LLM API key is correctly configured.",
+    "skill_type": "validation",
+    "estimated_effort": 1,
+    "expected_output": "api_config_check",
+    "output_format": "text"
+  }
+]

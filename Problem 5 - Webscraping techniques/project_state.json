@@ -1,0 +1,9 @@
+{
+  "prompts": [
+    "Provide examples of a web scrapping techniques which are challenging and how to tackle them (blocking, time outs, reverse API changes)",
+    "a proof of concept code with 5 companies selected and some firmographic information about them"
+  ],
+  "tech_stack": "python",
+  "llm_model": "gpt-4o",
+  "status": "planning"
+}

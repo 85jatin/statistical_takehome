@@ -1,0 +1,51 @@
+[
+  {
+    "agent_id": "agent_1_senior_engineer",
+    "role_name": "senior_engineer",
+    "assigned_tasks": [
+      "57c42195"
+    ]
+  },
+  {
+    "agent_id": "agent_2_technical",
+    "role_name": "technical",
+    "assigned_tasks": [
+      "2c0b45e6"
+    ]
+  },
+  {
+    "agent_id": "agent_3_content",
+    "role_name": "content",
+    "assigned_tasks": [
+      "1ac61e6a"
+    ]
+  },
+  {
+    "agent_id": "agent_3_content",
+    "role_name": "content",
+    "assigned_tasks": [
+      "e8f3faa6"
+    ]
+  },
+  {
+    "agent_id": "agent_1_senior_engineer",
+    "role_name": "senior_engineer",
+    "assigned_tasks": [
+      "32a20d6f"
+    ]
+  },
+  {
+    "agent_id": "agent_2_technical",
+    "role_name": "technical",
+    "assigned_tasks": [
+      "1ca38083"
+    ]
+  },
+  {
+    "agent_id": "agent_4_validation",
+    "role_name": "validation",
+    "assigned_tasks": [
+      "341f7088"
+    ]
+  }
+]

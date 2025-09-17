@@ -1,0 +1,20 @@
+# Here are some of the challenges faced while data scraping
+For each company URL:",
+1. If the page contains dynamic content:
+    "  Use 'handle_dynamic_content' to load the content.",
+2. If a CAPTCHA is detected:
+    "  Use 'solve_captcha' to bypass it.",
+    "  Parse the webpage using 'parse_firmographic_data'.",
+    "  Store the parsed data using 'store_data'.",
+    "  Handle any exceptions and log errors."
+
+# Error_handling techniques
+1. "error_case": "TimeoutError"
+"handling_strategy": "Retry the request with exponential backoff."
+2. "error_case": "HTTPError"
+"handling_strategy": "Log the error and skip to the next URL."
+3. "error_case": "CAPTCHAError"
+"handling_strategy": "Invoke 'solve_captcha' and retry the request."
+4. "error_case": "ParsingError"
+"handling_strategy": "Log the error and continue with the next data point."
+
